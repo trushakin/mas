@@ -36,3 +36,36 @@
 // System.Console.WriteLine("=>"+" "+num);
 
 
+//Задача 3: Задайте массив из вещественных чисел с ненулевой дробной частью. Найдите разницу между максимальным и минимальным элементов массива. 
+
+
+// double[] array = new double[5];
+// for(int i=0;i<array.Length;i++)
+// {
+// array[i]= new Random().NextDouble()*10;
+// Console.Write(array[i].ToString("F2")+" ");
+// }
+
+// double  max= array[0];
+// double min= array[0];
+
+// for(int i=0;i<array.Length;i++)
+// { 
+//     if (array[i]>max)
+//     {
+//     max=array[i];
+//     }
+   
+//     if (array[i]<min)
+//     {
+//     min=array[i];    
+//     } 
+
+
+// }
+// double diff= max-min;
+// System.Console.WriteLine("=> "+diff.ToString("F2"));
+
+
+
+
